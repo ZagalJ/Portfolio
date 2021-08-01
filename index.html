@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Jonathan Zagal</title>
-        <link rel="stylesheet" type="text/css" href="./assets/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Zagal</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
 <body>
+    <!-- header with my name and a small menu -->
     <header>
         <h1 class="page title">Jonathan Zagal</h1>
-    
+        <!-- menu -->
         <nav class="links" >
             <ul>
                 <li>
@@ -21,43 +25,66 @@
                 </li>
             </ul>
         </nav>
-        
     </header>
     <main>
-        <section>
-            <article id="subtitle">
-                <h2>Full Stack Developer</h2>
-            </article>
-            <article id="subsection">
-                <box class="box1">
-                    <h2 class="title">About me</h2>
-                            <p id="about">
-                                Welcome to my portfolio page. I’m a young full stack developer based in Eagan, Minnesota. I’m currently looking for a web developer job and I’m willing to relocate if needed.  I did 3 years of Software development while in high school in Mexico. 
-                            </p>
-                        
-               </box>
-               <box class="box1">
-                <h2 class="title">Work</h2>
-                    <p id="work">Images with link to examples saved in github
-                    </p>
-                </box>
-                <box class="box1">
-                <h2 class="title">Contact me </h2>
-                <div id="contact">
-                    <a>612 393 ****</a>
-                    <br>
-                    <a href="mailto:Jonathan.zagal@hotmail.com">Jonathan.Zagal@hotmail.com</a>
-                    <br>
-                    <a>github</a>
-                </div>
-                </box>
-            <box class="box1">    
-                <h2 class="title">Resume</h2>
-                    <p id="resume">Resume available at LinkedIn</p>
-                    <a href="https://www.linkedin.com/in/jonathan-zagal-893946165">Click here to open resume</a>
-            </box>
-                </article>
+        <!-- section for subtitle with background img -->
+        <section id="subtitle">
+            <h2>Full Stack Developer!</h2>
         </section>
+        <!-- avatar with rounded edges -->
+        <div class="avatar">
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQHq-CAy9it2rA/profile-displayphoto-shrink_200_200/0/1622842208548?e=1633564800&v=beta&t=qefo4rGmIQZvRCrTraPz2AqG9yFMexbS8eTABw-tzng" alt="Image of Jonathan Zagal">
+        </div>
+        <!-- body of the page with different sections each section includes left and right section -->
+        <body>
+            <!-- used classes on each div to gave it design by class -->
+            <div class="box">
+                <div class="leftSide" id="about">
+                    About Me
+                </div>
+                    <div class="text">Welcome to my portfolio page. I’m a young full stack developer based in Eagan, Minnesota. I’m currently looking for a web developer job and I’m willing to relocate if needed.  I did 3 years of Software development while in high school in Mexico. 
+                    </div>
+            </div>
+            <div class="box">
+                <div class="leftSide" id="work">
+                    Work
+                </div>
+                    <div class="text">Future projects in development
+                        <!-- included a screenshot and link to deployed website-->
+                        <a href="https://zagalj.github.io/firstSeltzer/">
+                        <img id="lastP" src="./assets/project1.png" alt="Screenshot of last project" >
+                        </a>
+                    </div>
+            </div>
+            <div class="box">
+                <div class="leftSide" id="contact">
+                    Contact Me
+                </div>
+                <!-- included links to github and a mail to -->
+                    <div class="text"><a>612 393 ****</a>
+                        <br>
+                        <a href="mailto:Jonathan.zagal@hotmail.com">Jonathan.Zagal@hotmail.com</a>
+                        <br>
+                        <a href="https://github.com/ZagalJ">Github</a>
+                    </div>
+            </div>
+            <div class="box">
+                <div class="leftSide">
+                    <!-- included a direct link to my linkedin profile to see my resume -->
+                    Resume
+                </div>
+                    <div class="text"><p id="resume">Resume available at LinkedIn</p>
+                        <a href="https://www.linkedin.com/in/jonathan-zagal-893946165">Click here to open resume</a>
+                    </div>
+            </div>
+            <footer>
+                <!-- footer with division of the rest of the page -->
+                <hr>
+               Thanks for visiting my site. See you soon :)
+                </hr>
+            </footer>
+        </body>
+      
     </main>
 </body>
 
