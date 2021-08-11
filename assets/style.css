@@ -89,7 +89,7 @@ vertical-align: middle;
 border-radius: 50%;
 }
 /* overwrite style for a specific object */
-#lastP{
+.lastP{
   border-radius: 0px;
   height: 80%;
   width: 80%;
